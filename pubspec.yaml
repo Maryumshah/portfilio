@@ -1,0 +1,60 @@
+name: maryum_s_application
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_staggered_grid_view: ^0.4.1
+  intl: ^0.17.0
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
+    - family: Gayathri
+      fonts: 
+        - asset: assets/fonts/GayathriBold.ttf
+          weight: 700
+    - family: Hurricane
+      fonts: 
+        - asset: assets/fonts/HurricaneRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+    - family: Gelasio
+      fonts: 
+        - asset: assets/fonts/GelasioBold.ttf
+          weight: 700
+        - asset: assets/fonts/GelasioRegular.ttf
+          weight: 400
+    - family: Homenaje
+      fonts: 
+        - asset: assets/fonts/HomenajeRegular.ttf
+          weight: 400
+    - family: Lateef
+      fonts: 
+        - asset: assets/fonts/LateefRegular.ttf
+          weight: 400
+    - family: Cairo
+      fonts: 
+        - asset: assets/fonts/CairoRegular.ttf
+          weight: 400
